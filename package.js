@@ -2,7 +2,7 @@ Package.describe({
   name: 'ox2:inject-style',
   version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'TESTING_DO_NOT_USE',
   // URL to the Git repository containing the source code for this package.
   git: '',
   // By default, Meteor will default to using README.md for documentation.
@@ -33,5 +33,5 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('ox2:inject-style');
-  api.addFiles('package-tests.js');
+  api.addFiles('tests/package-tests.js');
 });
